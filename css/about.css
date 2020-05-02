@@ -1,0 +1,40 @@
+.about {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about h1{
+    font-size: 30px;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+.about h2{
+    margin-bottom: 20px;
+}
+.redBox {
+    background-color: rgb(255, 85, 85);
+    border-radius: 10px;
+}
+.flexAbout {
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.aboutInformation {
+    width: 50%;
+}
+.aboutInformation h1{
+    font-size: 30px;
+    margin: 20px 0;
+    color: rgb(65, 65, 65);
+}
+.aboutInformation h2{
+    margin-bottom: 20px;
+}
+.aboutInformation p {
+    margin-bottom: 15px;
+}

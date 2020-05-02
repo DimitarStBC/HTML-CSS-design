@@ -1,5 +1,6 @@
 .landing {
     width: 90%;
+    height: 100vh;
     margin: auto;
 }
 .upperBar {
@@ -46,19 +47,25 @@ nav ul li a:hover {
 .homeInformation {
     width: 40%;
     height: 600px;
-    align-items: center;
+    justify-content: center;
 }
 .homeInformation h3{
     color: rgb(41, 41, 41);
-    margin: 10px 0;
+    margin: 20px 0;
 }
 .homeInformation h1{
     font-size: 35px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     text-transform: uppercase;
     color: rgb(65, 65, 65);
 }
 .homeInformation p {
     line-height: 25px;
     color: rgb(41, 41, 41);
+    margin-bottom: 20px;
+}
+
+.flexJust {
+    justify-content: space-evenly;
+    align-items: center;
 }
