@@ -9,8 +9,10 @@ function render(innerHTML) {
 
 
 function init() {
-    document.getElementById('allP').classList.add('currentLink');
-    render(allProjects());
+    document.getElementById('webP').classList.add('currentLink');
+    render(webProjects());
+
+
     document.getElementById('allP').addEventListener('click', openAll);
     document.getElementById('webP').addEventListener('click', openWeb);
     document.getElementById('logoP').addEventListener('click', openLogo);
