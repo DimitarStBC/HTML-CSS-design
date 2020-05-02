@@ -1,5 +1,6 @@
 @import url("./Home.css");
 @import url("./about.css");
+@import url("./portfolio.css");
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -50,7 +51,7 @@ table {
 .flexRow {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+   
 }
 .flexCol {
     display: flex;
@@ -102,4 +103,7 @@ table {
     height: 5px;
     background-color: rgb(255, 85, 85);
     margin: 10px 0;
+}
+.currentLink {
+    color: rgb(255, 85, 85);
 }

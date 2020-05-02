@@ -15,6 +15,9 @@
 .about h2{
     margin-bottom: 20px;
 }
+.about p {
+    color: rgb(122, 122, 122);
+}
 .redBox {
     background-color: rgb(255, 85, 85);
     border-radius: 10px;

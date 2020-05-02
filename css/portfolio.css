@@ -1,0 +1,40 @@
+.portfolio {
+    width: 90%;
+    margin: auto;
+}
+.portfolio h1{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.portfolio h2{
+    margin: 20px 0;
+}
+.portfolio ul li {
+    display: inline;
+}
+.portfolio button {
+    background-color: transparent;
+    border: none;
+    outline-style: none;
+}
+.portfolio button:hover{
+    cursor: pointer;
+}
+#content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gridStyle {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    grid-row-gap: 10px;
+}
+.gridStyle img {
+    width: 100%;
+   
+}
