@@ -1,0 +1,122 @@
+.skills {
+    width: 100%;
+    margin: 3rem auto;
+    padding: 3rem 0;
+    background-color: #f5f5f5;
+  }
+  #introSkills {
+    width: 70%;
+    margin: auto;
+  }
+  #introSkills h1 {
+    margin: 1rem 0;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+    color: #414141;
+  }
+  #introSkills h2 {
+    width: 50%;
+    color: #777777;
+  }
+  .skillDivide {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .leftSkills {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1rem;
+  }
+  .rightSkills {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1rem;
+  }
+  .head {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem 0;
+  }
+  .bar {
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background-color: #b4b4b4;
+    border-radius: 37px;
+  }
+  .filledBar1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 10px;
+    background-color: #ff3d4e;
+    border-radius: 37px;
+  }
+  .filledBar2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 10px;
+    background-color: #ff3d4e;
+    border-radius: 37px;
+  }
+  .filledBar3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 10px;
+    background-color: #ff3d4e;
+    border-radius: 37px;
+  }
+  .filledBar4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 10px;
+    background-color: #ff3d4e;
+    border-radius: 37px;
+  }
+  .filledBar5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 98%;
+    height: 10px;
+    background-color: #ff3d4e;
+    border-radius: 37px;
+  }
+  .filledBar6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 89%;
+    height: 10px;
+    background-color: #ff3d4e;
+    border-radius: 37px;
+  }
+  @media screen and (max-width: 1300px) {
+    .skillDivide {
+      display: flex;
+      flex-direction: column;
+    }
+    #introSkills {
+      width: 80%;
+      margin: auto;
+    }
+    #introSkills h2 {
+      width: 100%;
+    }
+  }
