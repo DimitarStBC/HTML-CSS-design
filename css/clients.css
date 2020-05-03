@@ -7,11 +7,12 @@
     height: 30vh;
     background-image: url("../images/pexels-photo-3184638.png");
     background-size: cover;
+    padding-bottom: 20px;
   }
   .projectsAndClients h1 {
     color: white;
     font-size: 60px;
-    margin: 1rem 0;
+    margin: 20px 0;
   }
   .projectsAndClients h2 {
     color: white;
@@ -20,4 +21,36 @@
   .overlay {
     background-blend-mode: multiply;
     background-color: #ff3d4e;
+  }
+
+  @media only screen and (max-width: 700px) {
+    
+    .projectsAndClients {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+      background-image: url("../images/pexels-photo-3184638.png");
+      background-size: cover;
+    }
+    .projectsAndClients h1 {
+      color: white;
+      font-size: 20px;
+      margin: 15px 0;
+    }
+    .projectsAndClients h2 {
+      color: white;
+      font-size: 10px;
+      width: 100%;
+      text-align: left;
+    }
+    .contentClients {
+      width: 90%;
+      margin: 1rem auto;
+    }
+    .feedback {
+      display: flex;
+      flex-direction: column;
+    }
+    
   }
