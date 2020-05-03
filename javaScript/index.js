@@ -1,6 +1,16 @@
 'use strict'
 
 window.addEventListener('DOMContentLoaded', init);
+let smoothScroll = new scrollToSmooth('a', {
+    targetAttribute: 'href',
+    duration: 800,
+    durationRelative: false,
+    durationMin: false,
+    durationMax: false,
+    easing: 'easeInOutBack',
+    fixedHeader: null
+})
+smoothScroll.init();
 
 function render(innerHTML) {
     let content = document.getElementById('content');
@@ -13,12 +23,15 @@ function init() {
     render(webProjects());
 
 
+
     document.getElementById('allP').addEventListener('click', openAll);
     document.getElementById('webP').addEventListener('click', openWeb);
     document.getElementById('logoP').addEventListener('click', openLogo);
     document.getElementById('graphicP').addEventListener('click', openGraphic);
     document.getElementById('uxP').addEventListener('click', openUx);
 }
+
+
 
 
 function openAll() {

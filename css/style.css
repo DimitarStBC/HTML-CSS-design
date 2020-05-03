@@ -35,6 +35,7 @@ footer, header, hgroup, menu, nav, section {
 body {
     line-height: 1;
     font-family: "Poppins", sans-serif;
+    position: relative;
 }
 ol, ul {
 	list-style: none;
@@ -111,4 +112,23 @@ table {
 }
 .currentLink {
     color: rgb(255, 85, 85);
+}
+#upArrow {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(255, 85, 85);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+    border-radius: 5px;
+}
+
+#upArrow:hover{
+    color: rgb(255, 212, 212);
 }

@@ -8,11 +8,14 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/3a84ca1838.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/bfiessinger/scrollToSmooth@latest/dist/scrolltosmooth.min.js"></script>
     <title>Gain</title>
 </head>
 
 <body>
-    <section class="landing">
+
+
+    <section id="home" class="landing">
         <div class="upperBar">
             <div class="logoBox">
                 <div class="logo">
@@ -24,12 +27,13 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="">Home</a></li>
+                    <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#blog">Blog</a></li>
                     <li><a href="">Contact</a></li>
+                    <li><a id="upArrow" href="#home">UP</a></li>
                 </ul>
             </nav>
         </div>
@@ -52,6 +56,8 @@
             </div>
         </div>
     </section>
+
+
 
     <section id="about" class="about">
 
@@ -360,6 +366,7 @@
     <script src="./javaScript/logoProjects.js"></script>
     <script src="./javaScript/graphicProjects.js"></script>
     <script src="./javaScript/uxP.js"></script>
+    <script src="./smoothScroll/dist/scrolltosmooth.min.js"></script>
 </body>
 
 </html>
