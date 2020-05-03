@@ -1,0 +1,71 @@
+#contact {
+    width: 70%;
+    margin: auto;
+  }
+  #introContact h1 {
+    padding: 20px 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 30px;
+    color: #414141;
+  }
+  #introContact h2 {
+    color: #777777;
+    width: 60%;
+  }
+  .contactForm {
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .leftForm div {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+  }
+  .leftForm h2 {
+    margin: 0 20px;
+    color: #414141;
+    font-weight: 600;
+  }
+  .rightForm form input {
+    border: none;
+    border-bottom: 1px solid #777777;
+    margin: 20px;
+    outline-style: none;
+  }
+  .rightForm div textarea {
+    resize: none;
+    margin: 20px !important;
+    outline-style: none !important;
+    border: none;
+    border-bottom: 1px solid #777777;
+    display: block;
+  }
+  .rightForm button {
+    margin: 20px;
+    border: none;
+    cursor: pointer;
+  }
+  @media screen and (max-width: 1300px) {
+    #contact {
+      height: auto;
+    }
+    #introContact {
+      margin-bottom: 3rem;
+    }
+    #introContact h2 {
+      width: 90%;
+      margin: auto;
+    }
+    .contactForm {
+      margin-top: 150px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  
